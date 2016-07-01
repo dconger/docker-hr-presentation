@@ -16,7 +16,7 @@ test:
     - cd app; mocha
 
 deployment:
-  dockerhub:
+  hub:
     branch: master
     commands:
       - $DEPLOY
